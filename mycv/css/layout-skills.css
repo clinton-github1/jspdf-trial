@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    width: 100%;
+    font-family: 'Lato','arial', serif;
+    font-weight: 300;
+    word-spacing: 0.5px;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    color: #1c1a1a;
+       
+}
+
+.openbtn{
+    
+    margin-left: 85%;
+    padding: 15px;
+    overflow: hidden; 
+    position: fixed;
+    top: 1%;
+    background-color: none;
+    color:#000000;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgba(0,0,0);
+    opacity: 0.9;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+
+h1{
+    
+    font-size: 200%;
+    margin-top: 10%;
+    font-weight: 700;
+    text-align: center;
+}
+
+h3{
+    
+   color: #000000;
+    font-size: 120%;
+    margin: 2% 2%;
+    font-weight: 700; 
+    text-align: center;
+    
+    
+}
+
+.skills{
+    
+    width: 100%;
+}
+
+.skills table{
+    
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.skills table img{
+    
+    width: 70%;
+    margin: auto;
+    
+}
+
+.skills table h3{
+    
+    padding-bottom: 5%;
+    
+}
+
+
+
+
+@media (max-width: 600px) {
+    
+     
+    h1{
+    
+    font-size: 130%;
+}
+
+h3{
+    
+    font-size: 90%;    
+    
+}
+}

@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    width: 100%;
+    font-family: 'Lato','arial', serif;
+    font-weight: 300;
+    word-spacing: 0.5px;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    color: #1c1a1a;
+       
+}
+
+header{
+    
+    height: 100vh;
+    background-image: url(../images/code2.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    
+    
+    
+}
+.bg-txt{
+     top: 20%;
+   
+    right: 8%;
+   position: absolute;
+    font-weight: 900;
+    font-size: 150%;
+}
+
+h1{
+    font-size: 250%;
+    color: #008000;
+    margin-bottom: 5%;
+    
+}
+h2{
+    
+    font-size: 120%;
+    color: #ffff;
+}
+span{
+    
+    color: #00FF7F;
+}
+
+.bg-txt p{
+    
+    font-weight: 300;
+    font-size: 80%;
+    color: #ffffff;
+    margin-bottom: 5%;
+}
+
+.my-links{
+    
+    display: flex;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.icon{
+   
+    color: #ffffff;
+    padding: 5% 5%;
+    
+}
+
+.icon:hover{
+    
+    color: #9ACD32;
+}
+
+.bg-txt img{
+    
+    width: 20%;
+    border-radius: 50%;
+}
+
+h4{
+    
+    font-size: 50%;
+    color: #00FF7F;
+}
+
+
+
+
+.openbtn{
+    
+    margin-left: 85%;
+    padding: 15px;
+    overflow: hidden; 
+    position: fixed;
+    top: 1%;
+    background-color: none;
+    color:#ffffff;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgba(0,0,0);
+    opacity: 0.9;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+
+
+.alert{
+    
+    text-align: center;
+}
+
+
+
+
+@media (max-width: 600px) {
+    
+    
+    .bg-txt{
+     top: 20%;
+    right: 8%;
+   position: absolute;
+    font-weight: 900;
+    font-size: 100%;
+}
+
+h1{
+    font-size: 150%;
+    }
+    
+.bg-txt p{
+    
+    font-weight: 300;
+    font-size: 60%;
+}    
+}
