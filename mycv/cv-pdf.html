@@ -33,6 +33,108 @@
         
         var doc = new jsPDF();
         
+        
+        
+        doc.setFontSize(30);
+        doc.setFontStyle('bold');
+        doc.text(155, 50, 'C', -70);
+        doc.text(157, 60, 'L', -90);
+        doc.text(157, 70, 'I', -100);
+        doc.text(157, 75, 'N', -110);
+        doc.text(153, 85, 'T', -120);
+        doc.text(150, 92, 'O', -123);
+        doc.text(145, 100, 'N', -130);
+        //doc.text(140, 105, '*', -133);
+        doc.text(137, 109, '*', -137);
+        //doc.text(134, 112, '*', -140);
+        doc.text(131, 115, '*', -143);
+        //doc.text(128, 118, '*', -146);
+        doc.text(123, 120, '*', -149);
+        doc.text(121, 127, 'W', 175);
+        doc.text(109, 126, 'E', 165);
+        doc.text(101, 125, 'R', 160);
+        doc.text(92, 122, 'E', 150);
+        doc.text(85, 117, '*', 150);
+        doc.text(80, 115, '*', 150);
+        doc.text(75, 112, '*', 150);
+        doc.text(70, 109, '*', 150);
+        doc.text(65, 104, '*', 150);
+        doc.text(60, 98, '*', 150);
+        doc.text(55, 92, '*', 150);
+        doc.text(52, 85, '*', 150);
+        doc.text(50, 85, 'O', 80);
+        doc.text(49, 75, 'G', 76);
+        doc.text(51, 65, 'I', 70);
+        doc.text(52, 60, 'N', 68);
+        doc.text(54, 53, 'G', 45);
+        doc.text(61, 45, 'A', 35);
+        doc.text(68, 40, '*', 35);
+        doc.text(75, 35, '*', 35);
+        doc.text(82, 30, '*', 35);
+        doc.text(89, 27, '*', 35);
+        doc.text(96, 26, '*', 35);
+        doc.text(98, 22, 'K', -10);
+        doc.text(108, 23, 'E', -15);
+        doc.text(118, 26, 'N', -20);
+        doc.text(128, 31, 'Y', -25);
+        doc.text(138, 36, 'A', -30);
+        doc.text(150, 45, '*', 35);
+        doc.text(155, 50, '*', 35);
+        
+        
+        
+        doc.setFontSize(25);
+        
+        doc.text(105, 35, 'I', -25);
+        doc.text(107, 36, '`', -25);
+        doc.text(111, 38, 'M', -25);
+        doc.text(120, 43, 'E', -50);
+        doc.text(125, 48, 'N', -60);
+        doc.text(129, 54, 'J', -65);
+        doc.text(131, 60, 'O', -70);
+        doc.text(133, 67, 'Y', -80);
+        doc.text(134, 74, 'I', -88);
+        doc.text(134, 79, 'N', -96);
+        doc.text(133, 86, 'G', -104);
+        doc.text(130, 96, 'M', -130);
+        doc.text(125, 101, 'Y', -140);
+        doc.text(118, 108, 'T', -155);
+        doc.text(112, 110, 'R', -165);
+        doc.text(105, 112, 'A', -180);
+        doc.text(98, 112, 'I', -185);
+        doc.text(95, 111, 'N', 160);
+        doc.text(88, 108, 'I', 150);
+        doc.text(85, 106, 'N', 140);
+        doc.text(80, 101, 'G', 130);
+        doc.text(73, 91, 'W', 115);
+        doc.text(69, 83, 'I', 100);
+        doc.text(68, 80, 'T', 92);
+        doc.text(68, 74, 'H', 88);
+        doc.text(69, 64, 'C', 74);
+        doc.text(72, 58, 'O', 70);
+        doc.text(75, 52, 'H', 60);
+        doc.text(78, 46, 'E', 50);
+        doc.text(82, 41, 'S', 40);
+        doc.text(86, 37, 'I', 30);
+        doc.text(88, 35, 'O', 10);
+        doc.text(95, 34, 'N', 0);
+        
+        
+        
+        doc.setFontSize(20);
+        
+        doc.text(83, 90, 'COHESION', 0);
+        doc.text(85, 84, 'DIGITAL', 60);
+        doc.text(100, 60, 'COMPANY', -48);
+        
+        
+        
+        
+        
+        
+        doc.addPage();
+        
+        
         doc.setFontSize(16);
         doc.setFontStyle('bold');
         doc.text(30, 30, 'PERONAL DETAILS');
@@ -199,8 +301,7 @@
         doc.text(20, 250, 'Masinde Muliro University of Science and Technology');
         doc.text(20, 260, 'Phone: +254 xxx xxx');
         
-        
-        
+            
         doc.save('CLINTON_CV.pdf');
     </script>
 </body>
